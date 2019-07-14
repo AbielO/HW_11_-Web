@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive Columns</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="stylish.css">
+</head>
+
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link"
+            href="file:///C:/Users/abiel/WUSTL201904DATA2/01-ClassContent/11-Web/3/Activities/08-Ins_ResponsiveCols/Solved/HTML-HW.html#">Home
+            <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Projects
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Project Comparison</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="file:///C:/datawork/HTML%20HW/excelvba.html">Excel & VBA</a>
+            <a class="dropdown-item" href="#">Python</a>
+            <a class="dropdown-item" href="#">Pandas & Matplotlib</a>
+            <a class="dropdown-item" href="#">API's</a>
+            <a class="dropdown-item" href="#">SQL</a>
+            <a class="dropdown-item" href="#">Advanced Data Storage</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="display-4">Abiel M. Ogbe</h1>
+      <p class="lead">Welcome to my Data Analytics Journey</p>
+      <hr class="my-4">
+      <p> <a href="https://bootcamp.tlcenter.wustl.edu/" target="_blank">Washington University Data Analytics</a></p>
+      <p> <a href="https://www.codecademy.com/catalog/subject/data-science" target="_blank">Code Academy Data Science
+          Path</a></p>
+      <p> <a href="https://www.udacity.com/school-of-data-science" target="_blank">Udacity School of Data Science </a>
+      </p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn More About Me</a>
+    </div>
+  </div>
+
+
+
+
+  <br><br><br><br>
+  <div class="row">
+    <div class="col">
+      <h3 class="text-center">Progress to Graduation!</h3>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+          aria-valuemax="100">
+          50%
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br><br><br><br>
+
+  <div class="container">
+    <h3 class="text-center">Data Projects</h3>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img src="https://github.com/AbielO/Excel---Homework-1/blob/master/excel.PNG?raw=true" alt="..."
+            class="img-thumbnail">
+        </div>
+        <div class="caption">
+          <br>
+          <p><a href="file:///C:/datawork/HTML%20HW/excelvba.html" class="btn btn-primary" role="button">Advanced Excel
+              and VBA</a>
+            <p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img
+            src="data:image/png;base64,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"
+            alt="..." class="img-thumbnail">
+        </div>
+        <div class="caption">
+          <br>
+          <p><a href="file:///C:/datawork/HTML%20HW/Python.html" class="btn btn-primary" role="button">Python</a> </p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img
+            src="https://wustl.bootcampcontent.com/wustl-bootcamp/WUSTL201904DATA2/raw/master/02-Homework/05-Matplotlib/Solutions/Pyber/analysis/Fig1.png"
+            alt="..." class="img-thumbnail">
+        </div>
+        <div class="caption">
+          <br>
+          <p><a href="file:///C:/datawork/HTML%20HW/pandas.html" class="btn btn-primary" role="button">Pandas &
+              Matplotlib</a></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <img
+              src="https://wustl.bootcampcontent.com/wustl-bootcamp/WUSTL201904DATA2/raw/master/02-Homework/06-Python-APIs/Solutions/output_data/Fig1.png"
+              alt="..." class="img-thumbnail">
+          </div>
+          <div class="caption">
+            <br>
+            <p><a href="file:///C:/datawork/HTML%20HW/api.html" class="btn btn-primary" role="button">Python and
+                API's</a> </p>
+            <p><a href="file:///C:/datawork/HTML%20HW/api.html" class="btn btn-primary" role="button">API Data</a> </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <img src="https://github.com/AbielO/SQL_HW/blob/master/SQL_HW.png?raw=true" alt="..." class="img-thumbnail">
+          </div>
+          <div class="caption">
+            <br>
+            <p><a href="file:///C:/datawork/HTML%20HW/sql.html" class="btn btn-primary" role="button">SQL using Postgres
+                and ERD's</a> </a></p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <img
+              src="https://wustl.bootcampcontent.com/wustl-bootcamp/WUSTL201904DATA2/raw/master/02-Homework/10-Advanced-Data-Storage-and-Retrieval/Instructions/Images/station-histogram.png"
+              alt="..." class="img-thumbnail">
+          </div>
+          <div class="caption">
+            <br>
+            <p><a href="#" class="btn btn-primary" role="button">Advanced Data Storgage</a> </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br> <br><br><br>
+
+
+    <div class="row">
+      <div class="col">
+        <h3 class="text-center">Upcoming Projects and Skills to be Mastered!</h3>
+        <ul class="list-group">
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            MongoDB and Webscraping <span class="badge badge-pill badge-secondary">June - 2019</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Javascript <span class="badge badge-pill badge-secondary">July 2019</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            R, and Machine Learning <span class="badge badge-pill badge-secondary">August 2019</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+</body>
+
+</html>
